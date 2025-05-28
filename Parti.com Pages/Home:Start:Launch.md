@@ -212,21 +212,90 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 463000,
-        "user_name": "SNEAKO",
-        "members": 4340
+          "user_id":463000,
+          "ordinal":0,
+          "user_name":"SNEAKO",
+          "user_avatar_id":2,
+          "description":"Seek Truth Through Funny",
+          "avatar_link":"asset_url",
+          "background_link":"asset_url",
+          "social_media":"telegram",
+          "social_username":"realsneako",
+          "discord_discriminator":null,
+          "channels_joined":1,
+          "members":25681
       },
       {
-        "user_id": 348242,
-        "user_name": "Jack Doherty",
-        "members": 3846
+          "user_id":464860,
+          "ordinal":1,
+          "user_name":"MrBasedForever",
+          "user_avatar_id":2,
+          "description":"Welcome to MR. BASED’s Parti!",
+          "avatar_link":"asset_url",
+          "background_link":"asset_url",
+          "social_media":"parti",
+          "social_username":"MrBasedForever",
+          "discord_discriminator":null,
+          "channels_joined":7,
+          "members":5528
       },
       {
-        "user_id": 601379,
-        "user_name": "DigitalNas",
-        "members": 10
-      }
-      // More featured channels
+          "user_id":462221,
+          "ordinal":2,
+          "user_name":"MoVlogs",
+          "user_avatar_id":11,
+          "description":"Let the Games Begin 💰",
+          "avatar_link":"asset_url",
+          "background_link":"asset_url",
+          "social_media":"twitter",
+          "social_username":"MovlogsCrypto",
+          "discord_discriminator":null,
+          "channels_joined":2,
+          "members":2557
+      },
+      {
+          "user_id":465731,
+          "ordinal":3,
+          "user_name":"worldoftshirts2001",
+          "user_avatar_id":3,
+          "description":"#huluchippendalesdance",
+          "avatar_link":"asset_url",
+          "background_link":"asset_url",
+          "social_media":"parti",
+          "social_username":"worldoftshirts2001",
+          "discord_discriminator":null,
+          "channels_joined":4,
+          "members":18115
+      },
+      {
+          "user_id":348242,
+          "ordinal":4,
+          "user_name":"Jack Doherty",
+          "user_avatar_id":5,
+          "description":"Follow me to watch all my new livestreams!",
+          "avatar_link":"asset_url",
+          "background_link":"asset_url",
+          "social_media":"twitter",
+          "social_username":"dohertyjackk",
+          "discord_discriminator":null,
+          "channels_joined":3,
+          "members":34157
+      },
+      {
+          "user_id":422974,
+          "ordinal":6,
+          "user_name":"JahBlessGames",
+          "user_avatar_id":0,
+          "description":"Spread love to d WORLD 💫",
+          "avatar_link":"asset_url",
+          "background_link":"asset_url",
+          "social_media":"parti",
+          "social_username":"JahBlessGames",
+          "discord_discriminator":null,
+          "channels_joined":110,
+          "members":177
+      },
+      // lists all features creators
     ]
     ```
 
