@@ -71,27 +71,74 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 567503,
-        "user_name": "DBR",
-        "viewers_count": 200,
-        "category_name": "Other",
-        "event_title": "I'm Live on Parti"
+          "user_id":348242,
+          "user_name":"Jack Doherty",
+          "user_avatar_id":5,
+          "avatar_link":"asset_url",
+          "event_id":83848,
+          "event_title":"I'm Live on Parti",
+          "event_file":"asset_url",
+          "category_name":"Other",
+          "viewers_count":12516,
+          "social_media":"twitter",
+          "social_username":"dohertyjackk",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/mvTHShbrmxS2",
+          "playback_url":"asset_url.m3u8",
+          "playback_auth_token":"asset_token"
       },
       {
-        "user_id": 353044,
-        "user_name": "BalthierGR",
-        "viewers_count": 160,
-        "category_name": "Gaming",
-        "event_title": "Games and music"
+          "user_id":465731,
+          "user_name":"worldoftshirts2001",
+          "user_avatar_id":3,
+          "avatar_link":"asset_url",
+          "event_id":83893,
+          "event_title":"I'm Live on Parti",
+          "event_file":"asset_url",
+          "category_name":"Other",
+          "viewers_count":5738,
+          "social_media":"parti",
+          "social_username":"worldoftshirts2001",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/he8vhFE098Ge",
+          "playback_url":"asset_url.m3u8", //live-video.net (Amazon) URL with CORS header set to parti.com, needs to be proxied, media .ts files themselves are not CORS protected though
+          "playback_auth_token":"asset_token"
       },
       {
-        "user_id": 608513,
-        "user_name": "Sourfarmer",
-        "viewers_count": 18,
-        "category_name": "Music",
-        "event_title": "Heat is real Sesh"
-      }
-      // Up to 100 channels
+          "user_id":351819,
+          "user_name":"officialsupercal",
+          "user_avatar_id":7,
+          "avatar_link":"asset_url",
+          "event_id":83825,
+          "event_title":"I'm Live on Parti",
+          "event_file":"asset_url",
+          "category_name":"Other",
+          "viewers_count":60,
+          "social_media":"parti",
+          "social_username":"officialsupercal",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/pQPooedoDjgV",
+          "playback_url":"asset_url.m3u8", //live-video.net (Amazon) URL with CORS header set to parti.com, needs to be proxied, media .ts files themselves are not CORS protected though
+          "playback_auth_token":"asset_token"
+      },
+      {
+          "user_id":593563,
+          "user_name":"Oldies_Hits_Radio",
+          "user_avatar_id":6,
+          "avatar_link":null,
+          "event_id":83870,
+          "event_title":"Classic Hits",
+          "event_file":"asset_url",
+          "category_name":"Music",
+          "viewers_count":51,
+          "social_media":"parti",
+          "social_username":"Oldies_Hits_Radio",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/9cNb4PD2VWYH",
+          "playback_url":"asset_url.m3u8", //live-video.net (Amazon) URL with CORS header set to parti.com, needs to be proxied, media .ts files themselves are not CORS protected though
+          "playback_auth_token":"asset_token"
+      },
+      // Up to 100 Live Channels
     ]
     ```
 
@@ -117,27 +164,74 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 567503,
-        "user_name": "DBR",
-        "viewers_count": 200,
-        "category_name": "Other",
-        "event_title": "I'm Live on Parti"
+          "user_id":348242,
+          "user_name":"Jack Doherty",
+          "user_avatar_id":5,
+          "avatar_link":"asset_url",
+          "event_id":83848,
+          "event_title":"I'm Live on Parti",
+          "event_file":"asset_url",
+          "category_name":"Other",
+          "viewers_count":12516,
+          "social_media":"twitter",
+          "social_username":"dohertyjackk",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/mvTHShbrmxS2",
+          "playback_url":"asset_url.m3u8",
+          "playback_auth_token":"asset_token"
       },
       {
-        "user_id": 353044,
-        "user_name": "BalthierGR",
-        "viewers_count": 160,
-        "category_name": "Gaming",
-        "event_title": "Games and music"
+          "user_id":465731,
+          "user_name":"worldoftshirts2001",
+          "user_avatar_id":3,
+          "avatar_link":"asset_url",
+          "event_id":83893,
+          "event_title":"I'm Live on Parti",
+          "event_file":"asset_url",
+          "category_name":"Other",
+          "viewers_count":5738,
+          "social_media":"parti",
+          "social_username":"worldoftshirts2001",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/he8vhFE098Ge",
+          "playback_url":"asset_url.m3u8", //live-video.net (Amazon) URL with CORS header set to parti.com, needs to be proxied, media .ts files themselves are not CORS protected though
+          "playback_auth_token":"asset_token"
       },
       {
-        "user_id": 612882,
-        "user_name": "TrueBarrz",
-        "viewers_count": 18,
-        "category_name": "Music",
-        "event_title": "TrueBarrz Music Mix"
-      }
-      // Up to 30 channels
+          "user_id":351819,
+          "user_name":"officialsupercal",
+          "user_avatar_id":7,
+          "avatar_link":"asset_url",
+          "event_id":83825,
+          "event_title":"I'm Live on Parti",
+          "event_file":"asset_url",
+          "category_name":"Other",
+          "viewers_count":60,
+          "social_media":"parti",
+          "social_username":"officialsupercal",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/pQPooedoDjgV",
+          "playback_url":"asset_url.m3u8", //live-video.net (Amazon) URL with CORS header set to parti.com, needs to be proxied, media .ts files themselves are not CORS protected though
+          "playback_auth_token":"asset_token"
+      },
+      {
+          "user_id":593563,
+          "user_name":"Oldies_Hits_Radio",
+          "user_avatar_id":6,
+          "avatar_link":null,
+          "event_id":83870,
+          "event_title":"Classic Hits",
+          "event_file":"asset_url",
+          "category_name":"Music",
+          "viewers_count":51,
+          "social_media":"parti",
+          "social_username":"Oldies_Hits_Radio",
+          "discord_discriminator":null,
+          "channel_arn":"arn:aws:ivs:eu-west-1:455030909228:channel/9cNb4PD2VWYH",
+          "playback_url":"asset_url.m3u8", //live-video.net (Amazon) URL with CORS header set to parti.com, needs to be proxied, media .ts files themselves are not CORS protected though
+          "playback_auth_token":"asset_token"
+      },
+      // Up to 30 Live Channels
     ]
     ```
 
