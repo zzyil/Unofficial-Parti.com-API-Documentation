@@ -537,30 +537,82 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 608513,
-        "user_name": "Sourfarmer",
-        "event_id": 80628,
-        "event_title": "Just a chill guy sesh",
-        "category_name": "Music",
-        "total_viewers": 34
+          "user_id":593563,
+          "user_name":"Oldies_Hits_Radio",
+          "user_avatar_id":6,
+          "avatar_link":null,
+          "livestream_visibility_type":"Public",
+          "event_id":83870,
+          "event_title":"Classic Hits",
+          "event_file":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748467912,
+          "event_end_ts":1748489531,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Music",
+          "social_media":"parti",
+          "social_username":"Oldies_Hits_Radio",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":85
       },
       {
-        "user_id": 593563,
-        "user_name": "Oldies_Hits_Radio",
-        "event_id": 80608,
-        "event_title": "Classic Hits",
-        "category_name": "Music",
-        "total_viewers": 36
+          "user_id":347653,
+          "user_name":"Jay Sylverhart",
+          "user_avatar_id":8,
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "livestream_visibility_type":"Public",
+          "event_id":83873,
+          "event_title":"Moogle Cafe - 80s Set",
+          "event_file":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748476349,
+          "event_end_ts":1748487695,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Music",
+          "social_media":"discord",
+          "social_username":"jaynair",
+          "discord_discriminator":"0",
+          "has_access_pass":false,
+          "total_viewers":27
       },
       {
-        "user_id": 612882,
-        "user_name": "TrueBarrz",
-        "event_id": 80417,
-        "event_title": "Music Party",
-        "category_name": "Music",
-        "total_viewers": 30
-      }
-      // More music livestreams
+          "user_id":449352,
+          "user_name":"ricviera",
+          "user_avatar_id":0,
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "livestream_visibility_type":"Public",
+          "event_id":83926,
+          "event_title":"Werk'n Wednesdays",
+          "event_file":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748485101,
+          "event_end_ts":1748485376,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Music",
+          "social_media":"parti",
+          "social_username":"ricviera",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":30
+      },
+      {
+          "user_id":608513,
+          "user_name":"Sourfarmer",
+          "user_avatar_id":1,
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "livestream_visibility_type":"Public",
+          "event_id":83802,
+          "event_title":"Random morning sesh",
+          "event_file":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748440254,
+          "event_end_ts":1748449063,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Music",
+          "social_media":"twitter",
+          "social_username":"sourfarmer",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":22
+      },
+      // Up to 15 recent livestreams
     ]
     ```
 
