@@ -914,14 +914,20 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
 
     ```json
     {
-      "user_id": 123456,
-      "user_name": "Inquisitive Mink",
-      "user_avatar_id": 9,
-      "channels_joined": 0,
-      "members": 1,
-      "description": null,
-      "social_media": "telegram",
-      "social_username": "bmw_cmbk"
+      "user_id":123456,
+      "user_name":"Inquisitive Mink",
+      "user_avatar_id":9,
+      "channels_joined":0,
+      "members":1,
+      "description":null,
+      "accept_terms":false,
+      "avatar_link":null,
+      "background_link":null,
+      "social_media":"telegram",
+      "social_username":"bmw_cmbk",
+      "discord_discriminator":null,
+      "is_banned":false,
+      "role_id":30
     }
     ```
 
