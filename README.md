@@ -4,9 +4,9 @@
 
 This portion is dedicated to Parti.com's utilisation of their own API on their official website. 
 
-### Home
+### Launch Page
 
-[Full Documentation](htthttps://github.com/zzyil/Unofficial-Parti.com-API-Documentation/blob/main/Parti.com%20Pages/Home%3AStart%3ALaunch.md)
+[Full Documentation](/zzyil/Unofficial-Parti.com-API-Documentation/blob/main/Parti.com%20Pages/Home%3AStart%3ALaunch.md)
 
 
 1. **Get Livestream Event Categories**:
