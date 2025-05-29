@@ -802,24 +802,44 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 444522,
-        "user_name": "ElementalMJ",
-        "event_id": 80739,
-        "event_title": "I'm Live on Parti",
-        "event_end_ts": 1747436206,
-        "category_name": "Other",
-        "total_viewers": 0
+          "user_id":355559,
+          "user_name":"NadieTv",
+          "user_avatar_id":5,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":83922,
+          "event_title":"Dota Wednesday",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1748481871,
+          "event_end_ts":1748490304,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Gaming",
+          "social_media":"twitter",
+          "social_username":"cantante_cesar",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":18
       },
       {
-        "user_id": 355293,
-        "user_name": "Capt_Robs_Adventures",
-        "event_id": 80676,
-        "event_title": "I'm Live on Parti",
-        "event_end_ts": 1747434724,
-        "category_name": "Other",
-        "total_viewers": 132
-      }
-      // More uncategorized livestreams
+          "user_id":599432,
+          "user_name":"Cezaahn",
+          "user_avatar_id":9,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":83921,
+          "event_title":"I'm Live on Parti",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1748480500,
+          "event_end_ts":1748489963,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Other",
+          "social_media":"parti",
+          "social_username":"Cezaahn",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":27
+      },
+      // Up to 15 unorganised stream
     ]
     ```
 
