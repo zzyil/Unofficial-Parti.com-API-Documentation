@@ -638,30 +638,63 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 611713,
-        "user_name": "Genxgaming0_1",
-        "event_id": 80642,
-        "event_title": "doom the dark ages",
-        "category_name": "Gaming",
-        "total_viewers": 42
+          "user_id":355536,
+          "user_name":"Itz_J_Man",
+          "user_avatar_id":5,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":83934,
+          "event_title":"!!!Parti Time!!!",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1748483710,
+          "event_end_ts":1748489787,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Gaming",
+          "social_media":"parti",
+          "social_username":"Itz_J_Man",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":105
       },
       {
-        "user_id": 43831,
-        "user_name": "Chilly Dolphin",
-        "event_id": 80495,
-        "event_title": "Rust",
-        "category_name": "Gaming",
-        "total_viewers": 112
+          "user_id":617533,
+          "user_name":"Dark Gorilla",
+          "user_avatar_id":7,
+          "avatar_link":null,
+          "livestream_visibility_type":"Public",
+          "event_id":83949,
+          "event_title":"1st stream",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1748486661,
+          "event_end_ts":1748487802,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Gaming",
+          "social_media":"twitter",
+          "social_username":"TalenJames13",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":38
       },
       {
-        "user_id": 353044,
-        "user_name": "BalthierGR",
-        "event_id": 80553,
-        "event_title": "Games and Music",
-        "category_name": "Gaming",
-        "total_viewers": 90
-      }
-      // More gaming livestreams
+          "user_id":353683,
+          "user_name":"DrDamon",
+          "user_avatar_id":2,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":83900,
+          "event_title":"live on pari",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1748475446,
+          "event_end_ts":1748485298,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Gaming",
+          "social_media":"twitter",
+          "social_username":"ItsDrDamon",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":56
+      },
+      // Up to 15 recent channels
     ]
     ```
 
