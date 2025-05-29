@@ -720,30 +720,63 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 348242,
-        "user_name": "Jack Doherty",
-        "event_id": 73640,
-        "event_title": "I'm Live on Parti",
-        "total_viewers": 93260,
-        "event_end_ts": 1745468523
+          "user_id":348242,
+          "user_name":"Jack Doherty",
+          "user_avatar_id":5,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":73640,
+          "event_title":"I'm Live on Parti",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1745433200,
+          "event_end_ts":1745468523,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Other",
+          "social_media":"twitter",
+          "social_username":"dohertyjackk",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":93260
       },
       {
-        "user_id": 572676,
-        "user_name": "IrelandBoys",
-        "event_id": 64022,
-        "event_title": "I'm Live on Parti",
-        "total_viewers": 69600,
-        "event_end_ts": 1742254988
+          "user_id":348242,
+          "user_name":"Jack Doherty",
+          "user_avatar_id":5,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":63781,
+          "event_title":"I'm Live on Parti",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1742158084,
+          "event_end_ts":1742180804,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Other",
+          "social_media":"twitter",
+          "social_username":"dohertyjackk",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":76262
       },
       {
-        "user_id": 463000,
-        "user_name": "SNEAKO",
-        "event_id": 78114,
-        "event_title": "I'm Live on Parti",
-        "total_viewers": 59565,
-        "event_end_ts": 1746674059
-      }
-      // More high-view livestreams
+          "user_id":572676,
+          "user_name":"IrelandBoys",
+          "user_avatar_id":2,
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "livestream_visibility_type":"Public",
+          "event_id":64022,
+          "event_title":"I'm Live on Parti",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1742241341,
+          "event_end_ts":1742254988,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"IRL",
+          "social_media":"parti",
+          "social_username":"IrelandBoys",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":69600
+      },
+      // Up to 15 recently ended livestreams sorted by top views
     ]
     ```
 
