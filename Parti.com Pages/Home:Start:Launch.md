@@ -455,24 +455,63 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "user_id": 444522,
-        "user_name": "ElementalMJ",
-        "event_id": 80739,
-        "event_title": "I'm Live on Parti",
-        "event_end_ts": 1747436206,
-        "category_name": "Other",
-        "total_viewers": 0
+          "user_id":593563,
+          "user_name":"Oldies_Hits_Radio",
+          "user_avatar_id":6,
+          "avatar_link":null,
+          "livestream_visibility_type":"Public",
+          "event_id":83870,
+          "event_title":"Classic Hits",
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748467912,
+          "event_end_ts":1748489531,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Music",
+          "social_media":"parti",
+          "social_username":"Oldies_Hits_Radio",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":85
       },
       {
-        "user_id": 355293,
-        "user_name": "Capt_Robs_Adventures",
-        "event_id": 80676,
-        "event_title": "I'm Live on Parti",
-        "event_end_ts": 1747434724,
-        "category_name": "Other",
-        "total_viewers": 132
-      }
-      // More recent livestreams
+          "user_id":464988,
+          "user_name":"ClaireVoyant",
+          "user_avatar_id":4,
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "livestream_visibility_type":"Public",
+          "event_id":83945,
+          "event_title":"I'm Live on Parti",
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748485505,
+          "event_end_ts":1748489256,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Other",
+          "social_media":"parti",
+          "social_username":"ClaireVoyant",
+          "discord_discriminator":null,
+          "has_access_pass":false,
+          "total_viewers":16
+      },
+      {
+          "user_id":615965,
+          "user_name":"astralsworld",
+          "user_avatar_id":4,
+          "avatar_link":"https://assets.parti.com/asset.png",
+          "livestream_visibility_type":"Public",
+          "event_id":83930,
+          "event_title":"Astrals World",
+          "event_file":"https://assets.parti.com/asset.png",
+          "event_start_ts":1748482973,
+          "event_end_ts":1748488603,
+          "livestream_recording":"relative_vod_url.m3u8",
+          "category_name":"Creative",
+          "social_media":"discord",
+          "social_username":"photobyastral_13781",
+          "discord_discriminator":"0",
+          "has_access_pass":false,
+          "total_viewers":546
+      },
+      // Up to 15 recent livestreams
     ]
     ```
 
