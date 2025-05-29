@@ -257,30 +257,70 @@ This guide lists the key API routes for the `parti.com` "Home/Start/Launch" page
     ```json
     [
       {
-        "event_id": 80292,
-        "user_id": 601139,
-        "category_id": 25,
-        "event_title": "CSRTRS-18 MAY 25raw",
-        "event_start_ts": 1747603500,
-        "category_name": "AfterParti"
+          "event_id":53474,
+          "user_id":494426,
+          "category_id":10,
+          "event_title":"🎉",
+          "event_description":"partintro ",
+          "event_file":null,
+          "event_start_ts":1748532120,
+          "event_end_ts":1748575380,
+          "livestream_visibility_type":"Public",
+          "user_name":"TazMeraki",
+          "avatar_link":null,
+          "user_avatar_id":1,
+          "livestream_recording":null,
+          "total_viewers":null
       },
       {
-        "event_id": 63403,
-        "user_id": 457056,
-        "category_id": 21,
-        "event_title": "PARTI BEACH",
-        "event_start_ts": 1748621100,
-        "category_name": "IRL"
+          "event_id":63403,
+          "user_id":457056,
+          "category_id":21,
+          "event_title":"PARTI BEACH",
+          "event_description":"South Florida Events",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1748621100,
+          "event_end_ts":1748660700,
+          "livestream_visibility_type":"Public",
+          "user_name":"pjmsky9",
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "user_avatar_id":2,
+          "livestream_recording":null,
+          "total_viewers":null
       },
       {
-        "event_id": 15207,
-        "user_id": 398350,
-        "category_id": 22,
-        "event_title": "GET YOUR FREE PANELS",
-        "event_start_ts": 1796020200,
-        "category_name": "Creative"
-      }
-      // More events
+          "event_id":36260,
+          "user_id":359640,
+          "category_id":20,
+          "event_title":"New site using Ai",
+          "event_description":"p2ecalculator.site",
+          "event_file":"https://https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1764436500,
+          "event_end_ts":1764439200,
+          "livestream_visibility_type":"Public",
+          "user_name":"F7ASH",
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "user_avatar_id":11,
+          "livestream_recording":null,
+          "total_viewers":null
+      },
+      {
+          "event_id":15207,
+          "user_id":398350,
+          "category_id":22,
+          "event_title":"GET YOUR FREE PANELS",
+          "event_description":"Download the FREE panels! Find the Link in profile",
+          "event_file":"https://assets.parti.com/asset.jpeg",
+          "event_start_ts":1796020200,
+          "event_end_ts":1796058060,
+          "livestream_visibility_type":"Public",
+          "user_name":"RJARIVI",
+          "avatar_link":"https://assets.parti.com/asset.jpeg",
+          "user_avatar_id":6,
+          "livestream_recording":null,
+          "total_viewers":null
+      },
+      // Up to 100 future scheduled streams
     ]
     ```
 
